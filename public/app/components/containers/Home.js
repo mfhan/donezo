@@ -12,11 +12,13 @@ var Home = React.createClass({
 
 		                <div className="swiper-container swiper-parent">
 		                    <div className="swiper-wrapper">
-		                        <div className="swiper-slide" style={{backgroundImage: 'url("images/slider/swiper/1.jpg")', backgroundPosition: 'center top'}}>
+		                        <div className="swiper-slide" style={{backgroundImage: 'url("images/slider/swiper/bag.png")', backgroundPosition: 'center top'}}>
 		                            <div className="container clearfix">
 		                                <div className="slider-caption slider-caption-left">
-		                                    <h2 style={{color:'#fff'}} data-caption-animate="fadeInUp">Fetch</h2>
-		                                    <p style={{color:'#fff'}} data-caption-animate="fadeInUp" data-caption-delay="200">What you want <br />&amp; When you want it!.</p>
+		                                	<br />
+
+		                                    <h2 style={{color:'#fff'}} data-caption-animate="fadeInUp">DONEZO</h2>
+		                                    <p style={{color:'#fff'}} data-caption-animate="fadeInUp" data-caption-delay="200">Beat That Deadline.<br />Together.</p>
 		                                </div>
 		                            </div>
 		                        </div>
@@ -24,7 +26,7 @@ var Home = React.createClass({
 		                </div>
 
 		            </div>
-		            
+
 		            <div className="container clearfix">
 		                <Register />
 		            </div>
@@ -110,7 +112,7 @@ var Home = React.createClass({
 		                    </div>
 		                </div>
 		            </div>
-		        </section> 
+		        </section>
 
 			</div>
 		);

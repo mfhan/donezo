@@ -11,7 +11,7 @@ var Sidebar = React.createClass({
 	                    <div id="primary-menu-trigger"><i className="icon-reorder"></i></div>
 	                    <div id="logo" className="nobottomborder">
 	                        <a href="index.html" className="standard-logo" data-dark-logo="images/logo-side-dark.png">
-	                        	<img src="images/logo-side.png" alt="Canvas Logo" />
+	                        	<img src="images/tick.png" alt="Canvas Logo" />
 	                        </a>
 	                        <a href="index.html" className="retina-logo" data-dark-logo="images/logo-side-dark@2x.png">
 	                        	<img src="images/logo-side@2x.png" alt="Canvas Logo" />
@@ -24,16 +24,20 @@ var Sidebar = React.createClass({
 	                                <a href="index.html"><div>Home</div></a>
 	                            </li>
 	                            <li>
-	                                <a href="index.html"><div>About</div></a>
+	                                <a href="index.html"><div>How This Works</div></a>
 	                            </li>
-	                            
-	                            <li><a href="#"><div>Pages</div></a>
+	                            <li><a href="#"><div>Causes</div></a>
 	                                <ul>
 	                                    <li><a href="#"><div>One</div></a></li>
 	                                    <li><a href="#"><div>Two</div></a></li>
 	                                    <li><a href="#"><div>Three</div></a></li>
 	                                </ul>
 	                            </li>
+	                            <li>
+	                                <a href="index.html"><div>About The Developer</div></a>
+	                            </li>
+
+
 	                        </ul>
 	                    </nav>
 
@@ -50,7 +54,7 @@ var Sidebar = React.createClass({
 	                    </div>
 	                </div>
 	            </div>
-	        </header>			
+	        </header>
 		);
 	}
 
