@@ -17,7 +17,7 @@ var Home = React.createClass({
 		                                <div className="slider-caption slider-caption-left">
 		                                	<br />
 
-		                                    <h2 style={{color:'#fff'}} data-caption-animate="fadeInUp">DONEZO</h2>
+		                                    <h2 style={{color:'#1ABC9C'}} data-caption-animate="fadeInUp">DONEZO</h2>
 		                                    <p style={{color:'#fff'}} data-caption-animate="fadeInUp" data-caption-delay="200">Beat That Deadline.<br />Together.</p>
 		                                </div>
 		                            </div>

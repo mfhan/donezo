@@ -85,11 +85,11 @@ var Register = React.createClass({
                 <div className="col_full">
                     <input onChange={this.updateVisitor} id="password" type="password" className="form-control input-lg not-dark" placeholder="Choose Password" />
                 </div>
-                <div className="col_full nobottommargin">
+                <div className="col_full nobottommargin" style={{color: '#1ABC9C'}} >
                     <button onClick={this.register} className="btn btn-lg btn-success btn-block nomargin" value="submit">START</button>
                 </div>
                 <div className="col_full nobottommargin" style={{textAlign:'center', marginTop:24}}>
-                    <a href="/login">Log In</a>
+                    <a href="/login"><span style={{font:'roboto', size: 16}}>Log In</span></a>
                 </div>
             </form>
 
