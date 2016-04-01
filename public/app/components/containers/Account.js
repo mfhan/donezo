@@ -42,7 +42,7 @@ var Account = React.createClass({
 		console.log('REFRESH: '+JSON.stringify(this.state.currentUser));
 		if (this.state.currentUser.id == null)
 			return;
-		
+
 		if (this.state.orders == null){
 			FetchServerActions.fetchOrders({
 				customer: this.state.currentUser.id
@@ -175,7 +175,7 @@ var Account = React.createClass({
 													</div>
 
 													<div className="col_full">
-														<label>Adddress:</label>
+														<label>Address:</label>
 														<input onChange={this.updateCurrentOrder} value={this.state.currentOrder.address} type="text" id="address" name="login-form-username" className="form-control" />
 													</div>
 
@@ -214,7 +214,7 @@ var Account = React.createClass({
 
 		                </div>
 		            </div>
-		        </section> 
+		        </section>
 
 			</div>
 		);
